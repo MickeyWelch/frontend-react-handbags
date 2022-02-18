@@ -48,17 +48,21 @@ function App() {
           </main>
           <footer>
               <Tile
-                  title={"The Brand"}
-                  text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores aspernatur assumenda cum ipsam ipsum iusto quidem soluta unde. Ad adipisci asperiores aspernatur consequatur consequuntur doloremque illum mollitia porro soluta!"}
+                  title={'The Brand'}
+                  text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores aspernatur assumenda cum ipsam ipsum iusto quidem soluta unde. Ad adipisci asperiores aspernatur consequatur consequuntur doloremque illum mollitia porro soluta!'}
               />
+              <Tile
+                  image={ourStory}
+              />
+          </footer>
+          <footer>
               <Tile
                   image={brandImage}
               />
-              <Tile image={ourStory}/>
               <Tile
-                  title={"Our Story"}
-                  text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores aspernatur assumenda cum ipsam ipsum iusto quidem soluta unde. Ad adipisci asperiores aspernatur consequatur consequuntur doloremque illum mollitia porro soluta!"}
-              />
+                  title={'Our story'}
+                  text={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto asperiores aspernatur assumenda cum ipsam ipsum iusto quidem soluta unde. Ad adipisci asperiores aspernatur consequatur consequuntur doloremque illum mollitia porro soluta!'}
+                  />
           </footer>
       </>
   );
