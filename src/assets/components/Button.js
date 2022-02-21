@@ -5,7 +5,7 @@ function Button({value, disableButton}){
         <button
             disabled={disableButton}
             onClick={() => {
-                console.log("testen kliks")
+                console.log(value)
             }}
         >{value}</button>
     );
